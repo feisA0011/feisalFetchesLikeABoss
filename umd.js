@@ -31,7 +31,9 @@
             if (typeof fetch === "function") {
                 let response = await fetch(this.APIAddress + resource, {
                     headers: {
-                        "Authorization": this.APIkey
+                        "Authorization": this.APIkey,
+                        "Accept": "application/json"
+
                     }
                 })
                 return await response.json()
@@ -51,9 +53,12 @@
                 const nodeFetch = require('node-fetch');
                 let response = await nodeFetch(this.APIAddress + resource, {
                     headers: {
-                        "Authorization": this.APIkey
+                        "Authorization": this.APIkey,
+                        "Accept": "application/json"
+
                     }
                 })
+
                 return await response.json()
             }
 
@@ -135,7 +140,8 @@
                 const nodeFetch = require('node-fetch')
                 let response = await nodeFetch(this.APIAddress + resource, {
                     headers: {
-                        "Authorization": this.APIkey
+                        "Authorization": this.APIkey,
+                        "Accept": "application/json"
                     }
                 })
                 return await response.json()

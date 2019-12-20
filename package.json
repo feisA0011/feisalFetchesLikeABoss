@@ -1,15 +1,24 @@
 {
-  "name": "feis-ahm10/feisalFetchesLikaABoss",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@feis-ahm10/fetchlikaaboss",
+  "version": "1.0.1",
   "main": "test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "jquery": "^3.4.1",
     "node-fetch": "^2.6.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feisA0011/feisalFetchesLikeABoss.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feisA0011/feisalFetchesLikeABoss/issues"
+  },
+  "homepage": "https://github.com/feisA0011/feisalFetchesLikeABoss#readme",
+  "description": ""
 }
