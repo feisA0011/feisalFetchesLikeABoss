@@ -26,7 +26,7 @@
         return this;
     }
 
-    async function get(resource) {
+    async function get(resource = "") {
         try {
             if (typeof fetch === "function") {
                 let response = await fetch(this.APIAddress + resource, {
@@ -68,7 +68,7 @@
 
     }
 
-    async function post(resource, data) {
+    async function post(resource = "", data) {
         try {
             if (typeof fetch === "function") {
 
@@ -112,7 +112,7 @@
         }
     }
 
-    async function del(resource, data) {
+    async function del(resource = "", data) {
         try {
             if (typeof fetch === "function") {
 
@@ -151,7 +151,7 @@
             throw error;
         }
     }
-    async function put(resource, data) {
+    async function put(resource = "", data) {
         try {
             if (typeof fetch === "function") {
 
