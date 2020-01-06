@@ -1,0 +1,10 @@
+{
+    "source": {
+        "include": ["./umd.js"]
+    },
+    "opts": {
+        "template": "./myFetch",
+        "destination": "./docs"
+    }
+
+}
